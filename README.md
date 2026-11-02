@@ -2,7 +2,7 @@
 
 [![tests](https://github.com/ahmed29345/laravel-tenant-rbac/actions/workflows/tests.yml/badge.svg)](https://github.com/ahmed29345/laravel-tenant-rbac/actions/workflows/tests.yml)
 
-Multi-tenant roles, permissions and data scoping for Laravel 11 and 12.
+Multi-tenant roles, permissions and data scoping for Laravel 12 and 13.
 
 In B2B SaaS one person often works for several organizations: owner of one,
 accountant in another, read-only auditor in a third. This package models that
@@ -21,7 +21,7 @@ throws instead of succeeding.
 ## Requirements
 
 - PHP 8.2+
-- Laravel 11 or 12
+- Laravel 12 or 13 (Laravel 13 needs PHP 8.3+)
 
 ## Installation
 
@@ -182,7 +182,7 @@ composer lint:check
 ```
 
 The suite uses Orchestra Testbench with in-memory SQLite. CI runs it on
-PHP 8.2, 8.3 and 8.4 against Laravel 11 and 12.
+PHP 8.2, 8.3 and 8.4 against Laravel 12, and PHP 8.3 and 8.4 against Laravel 13.
 
 ## License
 
